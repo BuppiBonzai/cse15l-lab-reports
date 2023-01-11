@@ -1,5 +1,7 @@
 # Remote Access to ieng6 Tutorial
 
+[Markdown stuff](https://commonmark.org/help/) **Delete before submitting lab report**
+
 First you'll need vs code, so go to [their website](https://code.visualstudio.com/) and download it to your computer if you don't already have it.
 
 Next you'll need Git Bash, so go here and download that [here](https://gitforwindows.org/).
