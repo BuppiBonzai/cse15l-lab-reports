@@ -38,10 +38,10 @@ If done correctly you should see this:
 
 Next You can try out some commands! Here's a list of some of them:
 
-`cd ~`
-`cd`
-`ls -lat`
-`ls -a`
+*`cd ~`
+*`cd`
+*`ls -lat`
+*`ls -a`
 
 Here's what my pc gave for `ls -a`
 
