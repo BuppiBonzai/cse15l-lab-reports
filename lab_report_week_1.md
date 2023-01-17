@@ -15,6 +15,7 @@ You now need to get a vscode git bash terminal set up.
 4. In the search bar type 'Select Default Profile'
 5. Select Git Bash
 6. Click on the drop down menu next to the '+' and select Bash 
+
 ![image](https://user-images.githubusercontent.com/70412955/212785709-0701cc2b-3b0b-4838-9836-6591b876e590.png)
 
 8. click the '+' to create a new Git Bash terminal
