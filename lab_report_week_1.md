@@ -48,3 +48,5 @@ Next You can try out some commands! Here's a list of some of them:
 Here's what my pc gave for `ls -a`
 
 ![image](https://user-images.githubusercontent.com/70412955/212787213-bf803cd6-e61d-4e1a-abb2-3d3c5eece157.png)
+
+Finally to log out you cant simply type in the command `exit`
