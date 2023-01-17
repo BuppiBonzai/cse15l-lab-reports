@@ -3,6 +3,8 @@
 [Markdown stuff](https://commonmark.org/help/) **Delete before submitting lab report**
 
 First you'll need vs code, so go to [their website](https://code.visualstudio.com/) and download it to your computer if you don't already have it.
+Simply select the operating system your computer runs on and run the executable installer once it finishes downloading
+![image](https://user-images.githubusercontent.com/70412955/212784858-258c66f8-ef24-4d65-bf5d-abc52d4b034b.png)
 
 Next you'll need Git Bash, so go here and download that [here](https://gitforwindows.org/).
 
@@ -15,8 +17,6 @@ You now need to get a vscode git bash terminal set up.
 6. Click on the drop down menu next to the '+' and select Bash
 7. click the '+' to create a new Git Bash terminal
 
-Next you'll need to look up your particular ieng6 account:
-1. Go here: [ieng6 account](https://sdacs.ucsd.edu/~icc/index.php)
-2. put in your .ucsd username and student id
-3. Under additional accounts, make note of the username and click on the button with the username on it
-4. 
+Next you'll need to look up your particular ieng6 account. To do that, use this other [Guide](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+
+
