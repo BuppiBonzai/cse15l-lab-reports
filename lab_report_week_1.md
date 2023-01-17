@@ -14,8 +14,10 @@ You now need to get a vscode git bash terminal set up.
 3. Now hit crtl + shift + p
 4. In the search bar type 'Select Default Profile'
 5. Select Git Bash
-6. Click on the drop down menu next to the '+' and select Bash
-7. click the '+' to create a new Git Bash terminal
+6. Click on the drop down menu next to the '+' and select Bash 
+![image](https://user-images.githubusercontent.com/70412955/212785709-0701cc2b-3b0b-4838-9836-6591b876e590.png)
+
+8. click the '+' to create a new Git Bash terminal
 
 Next you'll need to look up your particular ieng6 account. To do that, use this other [Guide](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
 
