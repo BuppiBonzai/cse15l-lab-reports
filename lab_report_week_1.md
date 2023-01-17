@@ -24,4 +24,12 @@ Next you'll need to look up your particular ieng6 account. To do that, use this 
 
 Take note of the student id you saw when finding the ieng6 account, it should look kind of like this "cs15lwi23zz" with the last two letters being unique
 
-In your bash terminal tpye in `$ ssh cs15lwi23zz@ieng6.ucsd.edu`
+In your bash terminal tpye in `$ ssh cs15lwi23zz@ieng6.ucsd.edu` (with the zz replaced with your specific two letters)
+
+You might get a message about authenticity, simply repsond with yes if its your first time connecting. 
+
+Next it should ask you for a password. If you reset your password in one of the previous guides, enter the password. You won't be able to see what you're typing so be careful
+
+If done correctly you should see some information about cluster status with some columns labled "Hostname," "time," "#Users," "Load," and "Averages"
+
+
