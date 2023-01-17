@@ -22,4 +22,6 @@ You now need to get a vscode git bash terminal set up.
 
 Next you'll need to look up your particular ieng6 account. To do that, use this other [Guide](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
 
+Take note of the student id you saw when finding the ieng6 account, it should look kind of like this "cs15lwi23zz" with the last two letters being unique
 
+In your bash terminal tpye in `$ ssh cs15lwi23zz@ieng6.ucsd.edu`
