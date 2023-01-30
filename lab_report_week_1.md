@@ -37,13 +37,13 @@ If done correctly you should see this:
 
 Next You can try out some commands! Here's a list of some of them:
 
-`cd ~`
+`cd` This takes you to the current directory, and can be used to change where your current directory is
 
-`cd`
+`cd ~` This is the same command as before but with the ability to add arguments to your cd command. This is called a "tilde expansion"
 
-`ls -lat`
+`ls -lat` It was hard to find a source that informed me of what this does exactly but [this](https://www.inmotionhosting.com/support/server/linux/ls-command/) showed me that on the linux side, ls list the names of features and files, and the -lat is a combination of the -l -a and -t commands, the desecriptions of which you can find on the linked website
 
-`ls -a`
+`ls -a` This reports all directories, including hidden ones in current directory. A files starting with a period is considered hidden
 
 Here's what my pc gave for `ls -a`
 
