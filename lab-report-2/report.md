@@ -6,6 +6,7 @@ Here's the code for my StringServer:
 As you can see, I repurposed the code from the wavelet code we forked from week 2 because it had everything I needed to make the server
 
 Here's two examples of me adding words to the server:
+
 ![add1](https://user-images.githubusercontent.com/70412955/215634833-016db908-9ff3-4fbc-9893-943c821ddc31.PNG)
 
 ![add2](https://user-images.githubusercontent.com/70412955/215634843-1c770ac6-356e-4f4c-a8c7-b4c612848226.PNG)
@@ -38,6 +39,7 @@ A test that did not produce a failure would be anything that happened to be a pa
   }
 ```
 Here are the two outcomes of those tests:
+
 ![arrayTestNoFailure](https://user-images.githubusercontent.com/70412955/215639863-9f96e7c7-c488-4e7d-b48a-34cbd1af40dc.PNG)
 ![arrayTestFail](https://user-images.githubusercontent.com/70412955/215639878-a9ec44aa-1a24-4c62-adb2-cd06d2ccd854.PNG)
 
