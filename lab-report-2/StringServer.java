@@ -5,36 +5,37 @@ import java.util.ArrayList;
 class Handler2 implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
+    // repurposing this for lar report 2, was originally from wavelet
     ArrayList<String> words = new ArrayList<String>();
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            return String.format("Hello");
+            String complete = "";
+            for (String i: words) {
+                complete += i + "\n";
+            }
+            return String.format(complete);
         } 
         else {
             System.out.println("Path: " + url.getPath());
-            if (url.getPath().contains("/add")) {
+            if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
                     words.add((parameters[1]));
-                    return String.format("Word added");
-                }
-            }
-            if (url.getPath().contains("/search")) {
-                String[] parameters = url.getQuery().split("=");
-                System.out.println("");
-                for (int i = 0; i<words.size(); i++) {
-                    if (words.get(i).contains(parameters[1])) {
-                        System.out.print(words.get(i)+", ");
+                    String complete = "";
+                    for (String i: words) {
+                        complete += i + "\n";
                     }
+                    return String.format(complete);
                 }
             }
+            
             return "404 Not Found!";
         }
     }
 }
 
-public class SearchEngine {
+public class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
